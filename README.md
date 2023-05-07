@@ -1,5 +1,4 @@
-# NfactorialTask
-## Задание отборочного тура (Flappy Bird)
+# NfactorialTask - Задание отборочного тура (Flappy Bird)
 
 # Запуск игры как Python-программы на Windows
 
