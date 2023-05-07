@@ -6,10 +6,18 @@
 
 1) Установите Python с официального сайта: https://www.python.org/downloads/
 2) Скачайте исходный код игры с репозитория на GitHub или клонируйте репозиторий с помощью команды: 
-``` git clone https://github.com/zhas-off/incubator-flappy-bird.git ```
+```bash 
+  git clone https://github.com/zhas-off/incubator-flappy-bird.git 
+```
 3) Откройте терминал (или командную строку на Windows) и перейдите в каталог с игрой, используя команду: 
-``` cd incubator-flappy-bird ```
+```bash 
+  cd incubator-flappy-bird 
+```
 4) Установите необходимые зависимости с помощью команды:
-``` pip install pygame ```
+```bash 
+  pip install pygame 
+```
 5) Запустите игру, выполнив команду:
-``` python flappy-bird.py ```
+```bash
+  python flappy-bird.py 
+```
