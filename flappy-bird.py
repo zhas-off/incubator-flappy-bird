@@ -100,7 +100,7 @@ clock = pygame.time.Clock()
 game_font = pygame.font.Font("assets/sprites/font.ttf", 30)
 
 # Игровые переменные
-gravity = 0.25
+gravity = 0.3
 bird_movement = 0
 game_active = True
 score = 0
@@ -177,7 +177,7 @@ if __name__ == "__main__":
 
         if game_active:
             # Птица
-            bird_movement += gravity
+            bird_movement += gravity + 0.07
             rotated_bird = rotate_bird(bird_sur)
             bird_rect.centery += bird_movement
             screen.blit(rotated_bird, bird_rect)
